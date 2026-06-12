@@ -1,0 +1,15 @@
+import java.util.*;
+public class CRUDDemo{
+    public static void main(String[] args) {
+        ArrayList<String>students = new ArrayList<>();
+        students.add("John");
+        students.add("David");
+        students.add("Sam");
+        System.out.println("Original List");
+        System.out.println("Original List");
+        students.remove(0);
+        System.out.println("After Delete");
+        System.out.println(students);
+    }
+}
+
